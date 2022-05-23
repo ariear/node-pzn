@@ -1,0 +1,35 @@
+{
+  "name": "node-pzn",
+  "version": "1.0.0",
+  "description": "Belajar Node Js Asyk",
+  "exports": {
+    ".": "./node-npm/index.js",
+    "./write": "./node-npm/write.js"
+  },
+  "scripts": {
+    "prestart": "echo 'Before aplication start'",
+    "start": "node ./node-npm/index.js",
+    "poststart": "echo 'After aplication start'",
+    "satir": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArieAkbarull/node-pzn.git"
+  },
+  "keywords": [
+    "arieakbarull",
+    "nodejs",
+    "npm"
+  ],
+  "author": "Arie Akbarull Ridho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArieAkbarull/node-pzn/issues"
+  },
+  "homepage": "https://github.com/ArieAkbarull/node-pzn#readme",
+  "type": "module",
+  "dependencies": {
+    "lodash": "4.17.21"
+  }
+}
